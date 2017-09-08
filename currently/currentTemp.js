@@ -1,6 +1,6 @@
 const request = require("request");
 
-const API_KEY = "b51a716e2e08978f0f88d908fed10c33";
+const API_KEY = API_KEY;
 
 function currentTemp(lat, long) {
   const request_URL = `https://api.darksky.net/forecast/${API_KEY}/${lat},${long}`;
